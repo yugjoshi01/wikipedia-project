@@ -1,0 +1,470 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 95px;
+    margin: 95px 400px 10px 650px;
+}
+
+main{
+    height: 320px;
+}
+
+.logo{
+    height: 35px;
+    width: 205px;
+    background-image: url("wikipedia\ logo.png");
+    background-size: cover;
+}
+
+ .sec-text{
+    width: 176px;
+    margin-left: 25px;
+    padding-top: 7px;
+    font-size: 16px;
+}
+
+.center-img{
+    margin: 90px 400px 100px 670px;
+
+}
+
+img{
+    width: 200px;
+    vertical-align: middle;
+}
+.lan-1{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 340px;
+    left: 550px;
+}
+.lan-2{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 390px;
+    left: 810px;
+}
+.lan-3{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 365px;
+    left: 510px;
+}
+.lan-4{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 415px;
+    left: 865px;
+}
+.lan-5{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 390px;
+    left: 505px;
+}
+.lan-6{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 437px;
+    left: 880px;
+}
+.lan-7{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 415px;
+    left: 530px;
+}
+.lan-8{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 455px;
+    left: 855px;
+}
+.lan-9{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 440px;
+    left: 580px;
+}
+.lan-10{
+    height: 45px;
+    width: 156px;
+    position: relative;
+    bottom: 480px;
+    left: 820px;
+}
+
+.language{
+    font-size: 16px;
+    color: #3366cc;
+    text-align: center;
+    font-weight: 700;
+}
+
+.article{
+    font-size: 13px;
+    color: #54595d;
+    text-align: center;
+}
+
+.search-input{
+     
+    height: 44px;
+    width: 435px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3366cc;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    position: relative;
+    left: 550px;
+    bottom: 35px;
+}
+ 
+input{
+    height: 44px;
+    width: 377px;
+    border: none;
+}
+
+.selc{
+    position: relative;
+    right: 50px;
+}
+
+select{
+    border: none
+}
+
+.search-icn{
+    position: relative;
+    right: 18px;
+    
+}
+
+.border:hover{
+    border: 1px solid black;
+}
+
+.read-button{
+    height: 35px;
+    width: 315px;
+}
+
+button{
+    height: 35px;
+    width: 300px;
+    position: relative;
+    left: 620px;
+    background-color: white;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+}
+
+svg{
+    height: 22px;
+    width: 22px;
+    position: relative;
+    right: 18px;
+    top: 3px;
+}
+
+span{
+    position: relative;
+    bottom: 4px;
+    right: 6px;
+}
+
+#ar{
+    position: relative;
+    left: 18px;
+    bottom: 4px;
+}
+
+.list-border{
+    height: 1px;
+    width: 500px;
+    background-color: #c8ccd1;
+    margin: -16px 320px 16px;
+    position: relative;
+    right: 420px;
+    top: 6px;
+    z-index: -1;
+}
+
+hr{
+    margin-top: 40px;
+    color: #c8ccd1;
+}
+
+.footer{
+    height: 600px;
+    display: flex;
+}
+
+.fir-footer{
+    height: 700px;
+}
+.host{
+    height: 90px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.host-logo{
+    height: 50px;
+    width: 100px;
+    background-image: url("host\ img.png");
+    background-size: cover;
+}
+
+p{
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #54595d;
+    
+}
+
+#fir-host{
+    font-size: 13px;
+    margin-left: 13px;
+    color: #3366cc;
+}
+
+.download{
+    height: 170px;
+    width: 350px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wiki-logo{
+    height: 50px;
+    width: 130px;
+    background-image: url("wikipedia\ download\ img.webp");
+    background-size: cover;
+}
+
+#fir-down{
+    font-size: 13px;
+    margin-left: 13px;
+    color: #3366cc;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+#sec-down{
+    font-size: 13px;
+}
+
+.down-img{
+    display: flex;
+}
+
+.img-1{
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("play\ store\ img.png");
+    background-size: cover;
+}
+
+.img-2{
+    height: 45px;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("ios\ app\ store\ img.png");
+    background-size: cover;
+}
+
+.sec-footer{
+    height: 400px;
+    width: 1200px;
+}
+
+.project{
+    height: 86px;
+    width: 250px;
+    margin: 20px 0px 10px 35px;
+    display: flex;
+}
+
+.project-img{
+    height: 55px;
+    width: 50px;
+    margin-top: 10px;
+    background-image: url("commons\ img.png");
+    background-size: cover;
+}
+
+.main-detail{
+    font-size: 14px;
+    color: #3366cc;
+}
+
+.other-detail{
+    font-size: 13px;
+    color: #54595d;
+}
+
+.line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-img-2{
+    height: 55px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("wikivoyage\ img.png");
+    background-size: cover;
+}
+
+.project-img-3{
+    height: 55px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("Wiktionary\ img.png");
+    background-size: cover;
+}
+
+.project-img-4{
+    height: 52px;
+    width: 63px;
+    margin-top: 10px;
+    background-image: url("wikibooks\ img.png");
+    background-size: cover;
+}
+
+.project-img-5{
+    height: 40px;
+    width: 63px;
+    margin-top: 10px;
+    background-image: url("wikinews\ img.png");
+    background-size: cover;
+}
+
+.project-img-6{
+    height: 35px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("wikidata\ img.png");
+    background-size: cover;
+}
+
+.project-img-7{
+    height: 54px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("wikiversity\ img.png");
+    background-size: cover;
+}
+
+.project-img-8{
+    height: 52px;
+    width: 43px;
+    margin-top: 10px;
+    background-image: url("wikiquote\ img.png");
+    background-size: cover;
+}
+
+.project-img-9{
+    height: 50px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("wikimedia\ img.png");
+    background-size: cover;
+}
+
+.project-img-10{
+    height: 53px;
+    width: 50px;
+    margin-top: 10px;
+    background-image: url("Wikisource\ img.png");
+    background-size: cover;
+}
+
+.project-img-11{
+    height: 52px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("wikispecies\ img.jpg");
+    background-size: cover;
+}
+
+.project-img-12{
+    height: 53px;
+    width: 55px;
+    margin-top: 10px;
+    background-image: url("Wikifunctions\ img.png");
+    background-size: cover;
+}
+
+.project-img-13{
+    height: 48px;
+    width: 57px;
+    margin-top: 10px;
+    background-image: url("meta-wiki\ img.png");
+    background-size: cover;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first{
+    font-size: 13px;
+    color: #54595d;
+}
+
+a{
+    font-size: 13px;
+    color: #3366cc;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    font-size: 13px;
+    color: #3366cc;
+}
+
+#term{
+        margin-left: 30px;
+        margin-top: 10px;
+}
+
+#private{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.line-2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 65px;
+}
